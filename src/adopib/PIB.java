@@ -2,23 +2,23 @@ package adopib;
 
 public class PIB {
 
-    private float pib;
+    private float valor;
     private float porcentagem;
 
     private String estado;
     private String regiao;
 
     public PIB(float pib, String estado) {
-        this.pib = pib;
+        this.valor = pib;
         this.estado = estado;
     }
 
-    public float getPib() {
-        return pib;
+    public float getValor() {
+        return valor;
     }
 
-    public void setPib(float pib) {
-        this.pib = pib;
+    public void setValor(float valor) {
+        this.valor = valor;
     }
 
     public float getPorcentagem() {
