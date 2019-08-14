@@ -8,9 +8,16 @@ public class PIB {
     private String estado;
     private String regiao;
 
-    public PIB(float pib, String estado) {
+        public PIB(float pib, String estado) {
         this.valor = pib;
         this.estado = estado;
+
+    }
+        
+    public PIB(float pib, String estado, String regiao) {
+        this.valor = pib;
+        this.estado = estado;
+        this.regiao = regiao;
     }
 
     public float getValor() {
