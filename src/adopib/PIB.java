@@ -3,9 +3,11 @@ package adopib;
 public class PIB {
 
     private float valor;
+    
     private float porcentagem;
 
     private String estado;
+    
     private String regiao;
 
         public PIB(float pib, String estado) {
